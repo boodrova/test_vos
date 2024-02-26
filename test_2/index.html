@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product List</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Product List</h1>
+  <div>
+    <label for="filterInput">Filter:</label>
+    <input type="text" id="filterInput" placeholder="Enter filter value">
+    <button onclick="applyFilter()">Apply Filter</button>
+  </div>
+  <table id="productTable">
+    <thead>
+      <tr>
+        <th>Brand</th>
+        <th>Product ID</th>
+        <th>Price</th>
+        <th>Name</th>
+      </tr>
+    </thead>
+    <tbody id="productTableBody">
+      <!-- Product list will be populated here -->
+    </tbody>
+  </table>
+  <div>
+    <button onclick="prevPage()">Previous Page</button>
+    <span id="currentPage"></span>
+    <button onclick="nextPage()">Next Page</button>
+  </div>
+  <script src="md5.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
