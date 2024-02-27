@@ -1,0 +1,149 @@
+@font-face {
+    font-family: 'Figtree';
+    src: url('assets/fonts/Figtree-VariableFont_wght.ttf');
+}
+
+@media only screen and (min-width: 1440px) {
+    body {
+        font-family: 'Figtree';
+        background-color: hsl(47, 88%, 63%);
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .container {
+        background-color: hsl(0, 0%, 100%);
+        border: 1px solid hsl(0, 0%, 7%);
+        border-radius: 15px;
+        box-shadow: 15px 10px 0px hsl(0, 0%, 7%);
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        margin: 300px;
+        width: 390px;
+        height: 500px;
+    }
+    .article {
+        margin: 20px;
+        border-radius: 10px;
+    }
+    .type {
+        background-color: hsl(47, 88%, 63%);
+        border: solid hsl(47, 88%, 63%);
+        border-radius: 5px;
+        margin: 5px 0 0 20px;
+        width: 80px;
+        height: 25px;
+        text-align: center;
+        font-weight: 800;
+        font-size: 16px;
+    }
+    .data {
+        margin: 10px 20px 0 20px;
+        font-size: 16px;
+    }
+    .click {
+        text-decoration: none;
+        font-size: 25px;
+        margin: 20px 20px 20px 20px;
+        font-weight: 800;
+        color: hsl(0, 0%, 7%);
+    }
+    .click:hover, .click:focus {
+        color: hsl(47, 88%, 63%);
+        cursor: pointer;
+    }
+    p {
+        color: hsl(0, 0%, 50%);
+        margin: 0 20px 0 20px;
+        font-size: 16px;
+    }
+    .bottom {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .avatar {
+        margin: 20px 20px 20px 20px;
+        width: 30px; height: 30px;
+    }
+    label {
+        font-weight: 800;
+    }
+}
+
+@media  only screen and (min-width: 375px) and (max-width: 1439px) {
+    body {
+        font-family: 'Figtree';
+        background-color: hsl(47, 88%, 63%);
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .container {
+        background-color: hsl(0, 0%, 100%);
+        border: 1px solid hsl(0, 0%, 7%);
+        border-radius: 15px;
+        box-shadow: 10px 5px 0px hsl(0, 0%, 7%);
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        margin: 200px 15px 0 15px;
+        width: 315px;
+        height: 450px;
+    }
+    .article {
+        margin: 20px;
+        border-radius: 10px;
+    }
+    .type {
+        background-color: hsl(47, 88%, 63%);
+        border: solid hsl(47, 88%, 63%);
+        border-radius: 5px;
+        margin: 5px 0 0 20px;
+        width: 80px;
+        height: 25px;
+        text-align: center;
+        font-weight: 800;
+        font-size: 14px;
+    }
+    .data {
+        margin: 10px 20px 0 20px;
+        font-size: 14px;
+    }
+    .click {
+        text-decoration: none;
+        font-size: 20px;
+        margin: 20px 20px 20px 20px;
+        font-weight: 800;
+        color: hsl(0, 0%, 7%);
+    }
+    p {
+        color: hsl(0, 0%, 50%);
+        margin: 0 20px 0 20px;
+        font-weight: 500;
+        font-size: 14px;
+    }
+    .bottom {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .avatar {
+        margin: 20px 20px 20px 20px;
+        width: 30px; height: 30px;
+    }
+    label {
+        font-weight: 800;
+    }
+}
